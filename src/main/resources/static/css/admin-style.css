@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("/assets/bg-profile.png");
+    background-size: cover;
+}
+
+.title{
+    color: #626262;
+    border-bottom: #636DF9 solid 2px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    color: #626262;
+}
+
+.content-table thead tr {
+    background-color: #636DF9;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #636DF9;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #636DF9;
+}
+
+a:link, a:visited{
+    background-color: #FF3D6D;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.btn{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, rgb(104, 105, 246),
+    rgb(104, 105, 246), rgb(104, 105, 246));
+    background-size: 200%;
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: .5s;
+}
+.btn:hover{
+    background-position: right;
+}
+
+.back {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+}
+
+.form-ban {
+    width: 7%;
+    height: 100%;
+}
+
+

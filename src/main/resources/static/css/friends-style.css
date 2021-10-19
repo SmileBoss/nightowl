@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("/assets/bg-friends.png");
+    /*background-size: cover;*/
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    color: #626262;
+    text-align: center;
+}
+
+
+.container{
+    background: #fff;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 3px 5px 8px 4px rgba(34, 60, 80, 0.2);
+}
+
+.table-friends {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(34, 60, 80, 0.2);
+    color: #626262;
+    width: 600px;
+}
+
+.table-friends thead tr {
+    background-color: #636DF9;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table-friends th,
+.table-friends td {
+    padding: 12px 15px;
+}
+
+.table-friends tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.table-friends tbody tr:last-of-type {
+    border-bottom: 2px solid #636DF9;
+}
+
+.table-friends tbody tr.active-row {
+    font-weight: bold;
+    color: #636DF9;
+}
+
+.table-btn:link, .table-btn:visited{
+    background-color: #FF3D6D;
+    color: white;
+    padding: 0px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+.table-btn:link, .table-btn:visited {
+    padding: 14px 25px;
+}
+
+.btn:link, .btn:visited {
+    background-color: #FF3D6D;
+    color: white;
+    padding: 0px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn{
+    display: block;
+    width: 50%;
+    height: 50px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, rgb(104, 105, 246),
+    rgb(104, 105, 246), rgb(104, 105, 246));
+    background-size: 200%;
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: .5s;
+}
+.btn:hover{
+    background-position: right;
+}
+
+.user-icon {
+    width:50px;
+    border-radius:50%;
+    height: 50px;
+}
+
+.image-friends{
+    margin-top: 20px;
+    height: 350px;
+}
+
+p {
+    color: #626262;
+}
+
+.block-btn {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    grid-column-gap: 10px;
+}
+
+.btn.top-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
